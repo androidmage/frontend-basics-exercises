@@ -1,0 +1,52 @@
+.has-padding {
+    padding-top: 10pt;
+    padding-left: 5pt;
+    padding-right:  5pt;
+    margin:  0pt;
+}
+.left-padding {
+    padding-left:  5pt;
+    margin:  0pt;
+}
+.no-padding {
+    margin: 0pt;
+    padding: 0pt;
+    clear: both;
+}
+.div-header {
+    background-color: lightpink;
+    height:  70pt;
+    min-height: 100%;
+}
+.div-left {
+    background-color: hotpink;
+    width: fit-content;
+}
+
+.div-middle {
+    background-color: lightgoldenrodyellow;
+    flex-grow: 1;
+}
+.div-right {
+    background-color: lightgreen;
+    width: 100pt;
+}
+.wide-table {
+    display: flex;
+    width: 100%;
+    clear: both;
+    height: 200pt;
+}
+.footer {
+    background-color: mediumpurple;
+    padding: 10pt;
+    height: fit-content;
+}
+.footer-header {
+    height: auto;
+    margin: 0pt;
+}
+.tight {
+    width: fit-content;
+    margin-right: 0px;
+}
