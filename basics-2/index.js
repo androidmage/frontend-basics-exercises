@@ -4,3 +4,4 @@ function displayData() {
         + "\nphone: " + document.getElementById("phone").value
         + "\nmessage: " + document.getElementById("message").value);
   }
+  
