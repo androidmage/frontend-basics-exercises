@@ -1,0 +1,249 @@
+.flex-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navlink-flex {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.top-margin {
+    margin-top: 50px;
+}
+
+.full-size {
+    width: 100%;
+    max-width: 100%;
+    padding: 0px;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.background-video > video{
+    width: 100%;
+    max-width: 100%;
+    padding: 0px;
+    object-fit: cover;
+}
+
+.background-home {
+    background-image: url("https://static.wixstatic.com/media/a858c7_0c8cd4cb13b747ecac8c4fe16ee515fd~mv2_d_2000_1335_s_2.jpg/v1/fill/w_980,h_731,al_b,q_85,usm_0.66_1.00_0.01,enc_auto/a858c7_0c8cd4cb13b747ecac8c4fe16ee515fd~mv2_d_2000_1335_s_2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    opacity: 50%;
+}
+
+.logo {
+    height: 162px;
+    width: 324px;
+    margin-bottom: 550px;
+}
+
+.collections-page {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.collections-card {
+    background-color: #D1CAC9;
+    width: 90%;
+}
+
+.about-card {
+    margin-top: 75px;
+    background-color: white;
+    width: 60%;
+    margin-bottom: 75px;
+}
+
+.about-text {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    font-size: large;
+    text-align: center;
+}
+
+.card-text {
+    margin: 30px;
+    text-align: center;
+}
+
+.card-text:last-child {
+    margin-bottom: 30px;
+}
+
+.display-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    margin-top: 50px;
+    box-shadow: 0 0 2px 2px grey;
+}
+
+.display-img {
+    width: 50%;
+    height: auto;
+    margin-top: 30px;
+    transition: opacity 0.5s;
+}
+
+.display-img:hover {
+    opacity: 0%;
+}
+
+.display-text {
+    margin-top: 50px;
+    font-size: large;
+    margin-bottom: 30px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+}
+
+.item-row {
+    display: flex;
+}
+
+.item-img {
+    width: 100%; 
+    height: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.info-card {
+    background-color: #D1CAC9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.info-text {
+    margin: 10px;
+}
+
+.slide {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0px;
+    z-index: -100;
+    transition: transform 1s;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.info-button {
+    outline: 2px solid black;
+    width: 80%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: outline 0.5s;
+}
+
+.info-button:hover {
+    outline: 4px solid black;
+}
+
+.contact-div {
+    background-color: #D1CAC9;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form {
+    background-color: white;
+    width: 60%;
+    margin-top: 30px;
+}
+
+.form-style {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.input-row {
+    display: flex;
+    gap: 0px;
+}
+
+.input-text {
+    border: 2px solid black;
+    width: 50%;
+    padding: 5px;
+    height: 70px;
+    padding-left: 20px;
+}
+
+.input-bottom {
+    border: 2px solid black;
+    width: 100%;
+    padding: 5px;
+    height: 200px;
+    padding-left: 20px;
+}
+
+.submit-button {
+    color: white;
+    border: none;
+    background-color: #2f2e2e;
+    width: 200px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.submit-button:hover {
+    background-color: black;
+}
+
+.button-container {
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer {
+    background-color: #2f2e2e;
+    height: auto;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.icon-row {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.icon {
+    margin: 5px;
+}
+
+.footer-text {
+    color: white;
+    text-align: center;
+}
